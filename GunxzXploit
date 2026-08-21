@@ -1,0 +1,293 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "GunxzXploit Hub | By Mark",
+   LoadingTitle = "GunxzXploit Executing...",
+   LoadingSubtitle = "by Mark",
+   ConfigurationSaving = {
+      Enabled = false
+   },
+   Discord = {
+      Enabled = false
+   },
+   KeySystem = false
+})
+
+-- ========================================================
+-- TAB 1: STEAL AN EGG
+-- ========================================================
+local TabStealEgg = Window:CreateTab("Steal An Egg", 4483362458)
+
+TabStealEgg:CreateButton({
+   Name = "Ouroboros Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/Ouroboros/main/loader.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Valinc Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.valincsyndicate.com/v1/releases/5502cba03703f4a3628d522d396b80d8.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Chiyo Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Asvra Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/asvraRoblox/stealegg/refs/heads/main/main"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Probest Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/0199b576f5c2d5a34159f0f9f4e1de0a566b4d1da5b1cfa5d2f71ade9bdcaa24/download"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "GS Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/spiritualgaming1123-beep/46ef55c5f8284e076aafc5ebd12233f4/raw/5b24749c3931c1838a76e64c9af508dcdd03700a/gistfile1.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Nasi Rendang Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/JualNasiRendang/loader/refs/heads/main/main.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Lumin Hub",
+   Callback = function()
+      loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Airflow Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://airflowscript.com/loader"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Speed Hub X (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Bigfroot Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/hanniii1/Loader/refs/heads/main/BFLoader.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Sportsclub Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://loader.sportsclub.fun/loader.luau"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Nova Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/novahub.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Scriptverse Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://scriptversekey.xyz/s/steal-an-egg"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Yuri Hub",
+   Callback = function()
+      _G.autoExec = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/iLove-yuri/leeeeesbian/refs/heads/main/homumado.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Saiops Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.saiops.cc/scripts/Steal-An-Egg-Script.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Vantage Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterNovitski/Vantage/refs/heads/main/mm2.txt", true))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Ajjans Hub (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/virtuososvisualedits-prog/Ww/refs/heads/main/final-obfuscated.lua"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Nemesis Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/x2zu/loader/main/freeloader.lua", true))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Solix Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/bao8jl/solixhub/main/loader"))()
+   end,
+})
+
+TabStealEgg:CreateButton({
+   Name = "Hoshi Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://hoshihub.site/loader.lua"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB 2: GROW A GARDEN 2
+-- ========================================================
+TabGarden = Window:CreateTab("Grow a Garden 2", 4483362458)
+
+TabGarden:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+TabGarden:CreateButton({
+   Name = "Lumin Hub",
+   Callback = function()
+      loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+   end,
+})
+
+TabGarden:CreateButton({
+   Name = "Airflow Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://airflowscript.com/loader"))()
+   end,
+})
+
+TabGarden:CreateButton({
+   Name = "Chiyo Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB 3: TORA ISME SCRIPT
+-- ========================================================
+local TabTora = Window:CreateTab("Tora Isme", 4483362458)
+
+local toraScripts = {
+   {"Be Flash For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/BeFlashForBrainrots"},
+   {"Bike Obby For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/BikeObbyForBrainrots"},
+   {"Skateboard For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/SkateboardforBrainrots"},
+   {"Vacuum For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/VacuumForBrainrots"},
+   {"Get STRONG For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/GetSTRONGforBrainrots"},
+   {"Survive Glass Bridge", "https://raw.githubusercontent.com/gumanba/Scripts/main/SurviveGlassBridgeForBrainrots"},
+   {"Pull Lucky Blocks", "https://raw.githubusercontent.com/gumanba/Scripts/main/PullLuckyBlocks"},
+   {"Dig DEEPER For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/DigDEEPERforBrainrots"},
+   {"Climb Up Mountain", "https://raw.githubusercontent.com/gumanba/Scripts/main/ClimbUpMountainForBrainrot"},
+   {"Be A Lucky Block", "https://raw.githubusercontent.com/gumanba/Scripts/main/BeaLuckyBlock"},
+   {"My Farmers Market", "https://raw.githubusercontent.com/gumanba/Scripts/main/MyFarmersMarket"},
+   {"Guess My Number", "https://raw.githubusercontent.com/gumanba/Scripts/main/GuessMyNumber"},
+   {"Cut Grass For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/CutGrassforBrainrots"},
+   {"Swing Obby For Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/SwingObbyforBrainrots"},
+   {"Find Who Slapped", "https://raw.githubusercontent.com/gumanba/Scripts/main/FindWhoSlapped"},
+   {"Steal From Brainrots", "https://raw.githubusercontent.com/gumanba/Scripts/main/StealFromBrainrots"},
+   {"1 Speed Escape", "https://raw.githubusercontent.com/gumanba/Scripts/main/1SpeedEscapeforBrainrots"},
+   {"Fish For Lucky Blocks", "https://raw.githubusercontent.com/gumanba/Scripts/main/FishForLuckyBlocks"},
+   {"Escape Getting Crushed", "https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeGettingCrushedForBrainrots"},
+   {"Survive LAVA", "https://raw.githubusercontent.com/gumanba/Scripts/main/SurviveLAVAforBrainrots"}
+}
+
+for _, scriptData in ipairs(toraScripts) do
+   TabTora:CreateButton({
+      Name = scriptData[1],
+      Callback = function()
+         loadstring(game:HttpGet(scriptData[2]))()
+      end,
+   })
+end
+
+
+-- ========================================================
+-- TAB 4: FISCH CATEGORY
+-- ========================================================
+local TabFisch = Window:CreateTab("Fisch", 4483362458)
+
+TabFisch:CreateButton({
+   Name = "Alchemy Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/x2neptunereal/Alchemy/main/gateway.luau"))()
+   end,
+})
+
+TabFisch:CreateButton({
+   Name = "Shield Hub",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/KAN-FISCH/tesss/refs/heads/main/allscript.lua', true))()
+   end,
+})
+
+TabFisch:CreateButton({
+   Name = "Zenith Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://zenithhub.cloud/panel/script"))()
+   end,
+})
+
+TabFisch:CreateButton({
+   Name = "Lunor Hub",
+   Callback = function()
+      loadstring(game:HttpGet('https://lunor.dev/loader'))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB 5: 100 DAYS AT SEA
+-- ========================================================
+local Tab100Days = Window:CreateTab("100 Days At Sea", 4483362458)
+
+Tab100Days:CreateButton({
+   Name = "Dimzhub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/bapak-ku-nelayan/papi-dimz/refs/heads/main/verload.lua"))()
+   end,
+})
+
+Rayfield:Notify({
+   Title = "GunxzXploit Loaded",
+   Content = "Script UI By Mark successfully loaded!",
+   Duration = 5,
+   Image = 4483362458,
+})
