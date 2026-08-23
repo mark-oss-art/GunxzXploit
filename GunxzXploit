@@ -285,6 +285,26 @@ Tab100Days:CreateButton({
    end,
 })
 
+
+-- ========================================================
+-- TAB: GROW A CHICKEN FIGHTER
+-- ========================================================
+local TabChicken = Window:CreateTab("Grow a Chicken Fighter", 4483362458)
+
+TabChicken:CreateButton({
+   Name = "Airflow",
+   Callback = function()
+      loadstring(game:HttpGet("https://airflowscript.com/loader"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "Gallium (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SmokeTY/Hidden-Scripts/refs/heads/main/Grow%20a%20Chicken%20Fighter"))()
+   end,
+})
+
 Rayfield:Notify({
    Title = "GunxzXploit Loaded",
    Content = "Script UI By Mark successfully loaded!",
