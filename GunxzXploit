@@ -292,16 +292,420 @@ Tab100Days:CreateButton({
 local TabChicken = Window:CreateTab("Grow a Chicken Fighter", 4483362458)
 
 TabChicken:CreateButton({
-   Name = "Airflow",
+   Name = "GALLIUM HUB (No Key)",
    Callback = function()
-      loadstring(game:HttpGet("https://airflowscript.com/loader"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SmokeTY/Hidden-Scripts/refs/heads/main/Grow%20a%20Chicken%20Fighter"))()
    end,
 })
 
 TabChicken:CreateButton({
-   Name = "Gallium (No Key)",
+   Name = "OUROBOROS HUB (No Key)",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/SmokeTY/Hidden-Scripts/refs/heads/main/Grow%20a%20Chicken%20Fighter"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/Ouroboros/main/loader.lua"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "ALTER HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://alterhub.site/loader.lua"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "PO HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/xxxxssw/project-open/refs/heads/main/chickenfighter"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "GS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/spiritualgaming1123-beep/4287954919c73db784e7e85742bedfd3/raw"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "KRONOS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nanana291/Kronos/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "LAMDUCK HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://lamduck2005.github.io/RobloxScript/loader.lua"))()
+   end,
+})
+
+TabChicken:CreateButton({
+   Name = "GLUA HUB",
+   Callback = function()
+      _G.DeleteTrialKey = true
+      loadstring(game:HttpGet("https://api.glua.xyz/loader"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB: RUN AWAY
+-- ========================================================
+local TabRunAway = Window:CreateTab("Run away", 4483362458)
+
+TabRunAway:CreateButton({
+   Name = "KARASU HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SrzStarOG/Script/main/RUNAWAYS"))()
+   end,
+})
+
+TabRunAway:CreateButton({
+   Name = "ASHLABS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://ashlabs.me/api/game?name=runaways.lua", true))()
+   end,
+})
+
+TabRunAway:CreateButton({
+   Name = "YURI HUB",
+   Callback = function()
+      _G.autoExec = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/iLove-yuri/leeeeesbian/refs/heads/main/homumado.lua"))()
+   end,
+})
+
+TabRunAway:CreateButton({
+   Name = "POLSEC HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/6d67ccb64f0c0f81f17f57d9afdf70487ecdd45317f2463d6b24f340ac42dfc9.lua"))()
+   end,
+})
+
+TabRunAway:CreateButton({
+   Name = "KRONOS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nanana291/Kronos/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB: STORAGE HUNTERS: OPEN WORLD
+-- ========================================================
+local TabStorageHunters = Window:CreateTab("Storage Hunters: Open World", 4483362458)
+
+TabStorageHunters:CreateButton({
+   Name = "RAY HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/femmehomme90-web/RayVoid_Scripts/main/Storage-Hunters-Open-World"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "DOPAMINES HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c3db54d7b3ffd5019f477d480cbeaef6.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "DOPAMINES 2 HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/71df11b32534fe3b4e657a77dc424940/script/main/main.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "DOPAMINES 3 HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/71df11b32534fe3b4e657a77dc424940/script/refs/heads/main/main.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "FORGE HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://cdn.forgehub.store/loader"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "PHOVEUS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/b43cbe53de46c35d5dd24dbcc942a5efd3e1b303da904667d66a20cd863c4dfe/download"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "QENTURY HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/db37b8bcae7dc3961dc9fa5c1c477883066e6eac1206db5faa305448a88fc0ca/download"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "HUNTERS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/3246324/Storage-Hunters/refs/heads/main/Hub"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "NOBULEM HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://nobulem.wtf/loader.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "NARAKA HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NarakaHUB/StorageHunter/refs/heads/main/sc1.md"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "CHIYO HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "SPACE HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://f.spacehub.wtf/loader.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "SYNEROX HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DrakarDev/Hud/refs/heads/main/StorageHuntersV2.lua"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "INDRA HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/2b7d97ed2525cef705b26f22d6964b87dd4b64a1bf533ac61d9edf6df14e8471/download"))()
+   end,
+})
+
+TabStorageHunters:CreateButton({
+   Name = "FABRON HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://fabron.pages.dev/s/f62edcc0-98d8-46d9-bb5e-28a16001e7ac/15bc3f5c-c5f7-4323-bb81-67e87e7266c4"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB: SAN DIEGO BORDER ROLEPLAY
+-- ========================================================
+local TabSanDiego = Window:CreateTab("San Diego Border RP", 4483362458)
+
+-- Warning / Peringatan Anti-Cheat
+TabSanDiego:CreateParagraph({
+   Title = "⚠️ PERINGATAN BANNED",
+   Content = "Gunakan script di game ini dengan risiko sendiri (Risk of Ban). Anti-cheat di San Diego Border Roleplay sangat kuat!"
+})
+
+TabSanDiego:CreateButton({
+   Name = "TYLEVELO HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/nikituir-droid/tylevo/refs/heads/main/tylevelo.lua"))()
+   end,
+})
+
+TabSanDiego:CreateButton({
+   Name = "VORTEX HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.getvortex.vip/scripts/sdbr_autofarm"))()
+   end,
+})
+
+TabSanDiego:CreateButton({
+   Name = "CARUNO HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/sV0M66ms"))()
+   end,
+})
+
+TabSanDiego:CreateButton({
+   Name = "PHANTOM HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Floysy/Roblox-scripts/refs/heads/main/SanDiegoBorderRP.lua"))()
+   end,
+})
+
+TabSanDiego:CreateButton({
+   Name = "BS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxydacool-del/baller/refs/heads/main/main.lua"))()
+   end,
+})
+
+TabSanDiego:CreateButton({
+   Name = "EDGE HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/vener4zet/edge/refs/heads/main/edge.lua"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB: +1 DRAIN WATER PER CLICK
+-- ========================================================
+local TabDrainWater = Window:CreateTab("+1 Drain Water", 4483362458)
+
+TabDrainWater:CreateButton({
+   Name = "OUROBOROS HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/Ouroboros/main/loader.lua"))()
+   end,
+})
+
+TabDrainWater:CreateButton({
+   Name = "SEL01 HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/seltonmt012/sel01-rbx/main/loader.lua"))()
+   end,
+})
+
+TabDrainWater:CreateButton({
+   Name = "TORA HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/1DrainWaterPerClick", true))()
+   end,
+})
+
+TabDrainWater:CreateButton({
+   Name = "ALTER HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://alterhub.site/loader.lua"))()
+   end,
+})
+
+TabDrainWater:CreateButton({
+   Name = "KRONOS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nanana291/Kronos/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+TabDrainWater:CreateButton({
+   Name = "FORGE HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://the-forge.wiki/?loader=1-drain-water-per-click"))()
+   end,
+})
+
+
+-- ========================================================
+-- TAB: CLEAN ALL THE LEAVES
+-- ========================================================
+local TabCleanLeaves = Window:CreateTab("Clean All The Leaves", 4483362458)
+
+TabCleanLeaves:CreateButton({
+   Name = "SEL01 HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/seltonmt012/sel01-rbx/main/loader.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "OUROBOROS HUB (No Key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/joustingmatch/Ouroboros/main/loader.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "LUMIN HUB",
+   Callback = function()
+      loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "FISHY HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/9aed6dacaef5a40e99f2e098fe9e6834731b65b3626ae6c6f5c84611271d14e9/download"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "YURI HUB",
+   Callback = function()
+      _G.autoExec = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/iLove-yuri/leeeeesbian/refs/heads/main/homumado.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "OVERFLOW HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/YLunR3Qc"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "PROBEST HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/249e623a5f849585634581fad57498559cf415241744f5cd97d9eb55021cab42/download"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "AETHER HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://aetherhub.lol/loader.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "ZERO HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/JaxRol/ZeroPoint/refs/heads/main/KeySystem"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "SYNEROX HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DrakarDev/Hud/refs/heads/main/Cleanalltheleaves.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "SUN HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UNIVERSAL-SUN-HUB-DEV/spt/refs/heads/main/ld.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "KRONOS HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nanana291/Kronos/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "HOMUMADO HUB",
+   Callback = function()
+      _G.autoExec = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/iLove-yuri/leeeeesbian/refs/heads/main/homumado.lua"))()
+   end,
+})
+
+TabCleanLeaves:CreateButton({
+   Name = "POTATO HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/potatohub67/potatoscripts/refs/heads/main/cleanleafes.lua"))()
    end,
 })
 
