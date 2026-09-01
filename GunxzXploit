@@ -13,6 +13,31 @@ local Window = Rayfield:CreateWindow({
    KeySystem = false
 })
 
+local TabInfo = Window:CreateTab("Info & Discord", 4483362458)
+
+TabInfo:CreateSection("Latest Update Patch")
+
+TabInfo:CreateParagraph({
+   Title = "🚀 BIG UPDATE: NEW GAMES & SCRIPT EXPANSION! 🚀",
+   Content = "Hey everyone! We've just updated our Script Hub with 4 new game categories and a huge selection of working hubs!\n\nHere is the full list of everything added in this update:\n\n🌊 1. 100 Days At Sea\n• Dimzhub\n• Star Hub (No Key)\n• Moondiety Hub\n• Pinat Hub\n• Ruby Hub\n• Probest Hub\n• Lwai Hub\n• Junkie Hub\n• Forge Hub\n• Prisma Hub\n• Deuxd Hub\n• C4rl Hub\n• Axon Hub\n• Blox Hub\n• Sable Hub\n• IDK 1 Hub\n• IDK 2 Hub\n• Stree Hub\n\n🧹 2. Dig & Clean\n• Ouroboros Hub (No Key)\n• Verse Hub\n• Fire Hub\n• SFG Hub\n\n⚔️ 3. Mini War\n• Vaen Hub (No Key)\n• Cyraa Hub (No Key)\n• Ouroboros Hub (No Key)\n• Dopamine Hub (No Key)\n• Kashimos X Hub (No Key)\n• Akkiwi Hub (No Key)\n• Vilanxware Hub\n• BP Hub\n• Axrex Hub\n• Sable Hub\n• Noliar Hub\n• Sun Hub\n• Axon Hub\n• BS Hub\n• Star Forge Hub\n• Mini Hub\n• Pro Hub\n• Forge Hub\n• Hell Hub\n\n🐒 4. +1 Speed Monkey Escape\n• Najz Hub (No Key)\n• Monkey Hub (No Key)\n• Void Hub (No Key)\n• Prime X Hub\n• Abyss Hub\n• C4rl Hub\n• Bcode Hub\n• Probest Hub\n• AI Hub\n• King Baconnnn Hub\n• Fabron Hub\n• Olympus Hub\n\nThank you for your support, and enjoy! 🎉"
+})
+
+TabInfo:CreateSection("Join Our Community")
+
+TabInfo:CreateButton({
+   Name = "Copy Discord Invite Link",
+   Callback = function()
+      setclipboard("https://discord.gg/jwQpZf6rf5")
+      
+      Rayfield:Notify({
+         Title = "Discord Link Copied!",
+         Content = "Link Discord berhasil disalin ke clipboard kamu.",
+         Duration = 3,
+         Image = 4483362458,
+      })
+   end,
+})
+
 -- ========================================================
 -- TAB 1: STEAL AN EGG
 -- ========================================================
